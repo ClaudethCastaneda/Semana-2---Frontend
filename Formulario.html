@@ -1,0 +1,182 @@
+# Semana-2---Frontend
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido</title>
+    
+    <style>
+        header {    
+            background-color: #f5e5e8;
+            padding: 10px;
+            font-size: 30px;
+            border-radius: px;
+            text-align: center;
+            font-style: oblique;
+            
+        }
+        h2{
+            margin-top: 0px;
+            margin-left: 20px;
+            
+        }
+        div{
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 13px 20px;
+            box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+        }
+        table{
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+         .Encabezado{
+            text-align: center;
+            margin-bottom: 0px;
+            font-size: 20px;
+         }
+            
+        td{
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 15px;
+           
+        }
+        label{
+            margin-left: 30px;
+            font-size: 20px;
+        }
+        input{
+            margin-top: 10px;
+            border-radius: 10px;
+            border: 1px solid rgb(204, 204, 204);
+            height: 20px;
+           
+        }
+        button {
+            margin: 30px;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-radius: 15px;
+            font-size: 22px;
+            background-color: #D5C6E0;
+            border: 4px groove;
+            box-shadow: 1px 1px 1px #0000004d;
+        }
+        textarea{
+            margin-left: 30px;
+            margin-top: 10px;
+            width: 30%;
+            height: 100px;
+        }
+        button:hover{
+            background-color: #967AA1;
+        }
+        footer {
+            
+            text-align: center;
+            background: #967AA1;
+            color: white;
+            padding: 20px;
+            border-radius: 0px;
+        }
+    </style> 
+
+</head>
+<body>
+    <header>
+        <h1>Realiza tu pedido</h1>
+    </header>
+    
+    <h2>Formulario</h2>
+    
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombre" value="" >
+        <br>
+        <label for="Paterno">Apellido Paterno:</label>
+        <input type="text" name="Paterno" value="" >
+        <br>
+        <label for="Materno">Apellido Materno:</label>
+        <input type="text" name="Materno" value="" >
+        <br>
+        <label for="Correo">Correo Electronico:</label>
+        <input type="text" name="Correo" value="" >
+        <br>
+        <label for="Telefono">Telefono/celular:</label>
+        <input type="text" name="Telefono" value="" >
+        <br>
+        <label for="Direccion">Direccion:</label>
+        <input type="text" name="Direccion" value="" >
+        <br><br>
+
+
+    <table>
+        <tr>
+            <td>
+                <p class="Encabezado"><strong>Sabores de pasteles</strong></p>
+            </td>
+            <td>
+                <p class="Encabezado"><strong>Adornos</strong></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="Tres" value="Tres">
+                <label for="Tres">Tres leches</label>
+            </td>
+            <td>
+                <input type="checkbox" name="Chispas" value="Chispas">
+                <label for="Chispas">Chispas de colores</label>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <input type="checkbox" name="Oreo" value="Oreo">
+                <label for="Oreo">Oreo</label>
+            </td>
+            <td>
+                <input type="checkbox" name="Merengue" value="Merengue">
+                <label for="Merengue">Merengue</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="Fresa" value="Fresa">
+                <label for="Fresa">Fresa</label>
+            </td>
+            <td>
+                <input type="checkbox" name="Cerezas" value="Cerezas">
+                <label for="Cerezas">Cerezas</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="Nuez" value="Nuez">
+                <label for="Nuez">Nuez</label>
+            </td>
+            <td>
+                <input type="checkbox" name="Velitas" value="Velitas">
+                <label for="Velitas">Velitas para cumpleaños</label>
+            </td>
+        </tr>
+        <tr>
+
+        
+    </table>
+
+   <button >Finalizar pedido</button>
+
+   <footer>
+    <p>Direccion: P. Sherman, calle Wallaby, 42, CDMX  </p>
+    <p>Whatsapp: 881 555 0129 </p>
+</footer>
+</body>
+</html>
